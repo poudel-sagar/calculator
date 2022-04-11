@@ -50,6 +50,8 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
             }else if(buttonText=="="){
 
               expression = equation;
+              expression = expression.replaceAll('x','*');
+              expression = expression.replaceAll('÷','/');
 
               try{
                 Parser p =  Parser();
