@@ -125,6 +125,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
           Expanded(
             child: Divider(),
           ),
+          //using row
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
